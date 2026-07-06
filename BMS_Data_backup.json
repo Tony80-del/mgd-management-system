@@ -1,0 +1,149 @@
+{
+  "bms_lang": "en",
+  "bms_plan_reset_done": "true",
+  "bms_plan_reset_done_v2": null,
+  "bms_data": {
+    "bids": [
+      {
+        "id": "B1",
+        "customerName": "示例客户A / Sample A",
+        "projectName": "示范项目一 / Demo 1",
+        "location": "胡志明市 Quận 1",
+        "landArea": "5000",
+        "trackDate": "2026-04-01",
+        "stage": "资格预审 / Pre-qualification",
+        "personInCharge": "Nguyễn Văn A",
+        "email": "nguyen@example.com",
+        "category": "A",
+        "estimatedValue": "50000000000"
+      },
+      {
+        "id": "B2",
+        "customerName": "示例客户B / Sample B",
+        "projectName": "示范项目二 / Demo 2",
+        "location": "河内 Ba Đình",
+        "landArea": "12000",
+        "trackDate": "2026-03-20",
+        "stage": "投标中 / Bidding",
+        "personInCharge": "Trần Văn B",
+        "email": "tran@example.com",
+        "category": "B",
+        "estimatedValue": "12000000000"
+      },
+      {
+        "id": "B3",
+        "customerName": "示例客户C / Sample C",
+        "projectName": "示范项目三 / Demo 3",
+        "location": "岘港 Hải Châu",
+        "landArea": "8000",
+        "trackDate": "2026-03-15",
+        "stage": "中标 / Won",
+        "personInCharge": "Lê Thị C",
+        "email": "le@example.com",
+        "category": "A",
+        "estimatedValue": "8000000000"
+      }
+    ],
+    "customers": [
+      {
+        "id": "C1",
+        "companyName": "示例公司A / Company A",
+        "companyBusiness": "建筑工程 / Construction",
+        "contactPerson": "Nguyễn Văn A",
+        "position": "项目经理 / Project Manager",
+        "phone": "090-1234-5678",
+        "email": "nguyen@example.com",
+        "country": "越南 / Vietnam",
+        "priority": "高 / High",
+        "createdDate": "2026-04-01"
+      },
+      {
+        "id": "C2",
+        "companyName": "示例公司B / Company B",
+        "companyBusiness": "房地产开发 / Real Estate",
+        "contactPerson": "Trần Thị B",
+        "position": "采购经理 / Procurement Manager",
+        "phone": "091-2345-6789",
+        "email": "tran@example.com",
+        "country": "越南 / Vietnam",
+        "priority": "中 / Medium",
+        "createdDate": "2026-03-15"
+      }
+    ],
+    "projects": [
+      {
+        "id": "I1",
+        "customerName": "示例公司A / Company A",
+        "interactionDate": "2026-04-03",
+        "interactionType": "拜访 / Visit",
+        "content": "与项目经理Nguyễn Văn A讨论投标项目细节",
+        "personInCharge": "Lê Thị C",
+        "nextStep": "准备技术方案",
+        "status": "进行中 / In Progress",
+        "notes": "需要进一步跟进客户需求",
+        "interactionCount": 1
+      },
+      {
+        "id": "I2",
+        "customerName": "示例公司B / Company B",
+        "interactionDate": "2026-04-02",
+        "interactionType": "电话 / Phone",
+        "content": "确认投标文件收到情况",
+        "personInCharge": "Trần Văn B",
+        "nextStep": "等待反馈",
+        "status": "已完成 / Completed",
+        "notes": "客户确认收到文件,等待回复",
+        "interactionCount": 1
+      }
+    ],
+    "chambers": [
+      {
+        "id": "CH1",
+        "chamberName": "越南中国商会 / VCCI",
+        "country": "越南 / Vietnam",
+        "phone": "+84-24-3577-1234",
+        "email": "info@vcci.com.vn",
+        "contactPerson": "Nguyễn Minh",
+        "topic": "中越建筑工程合作论坛",
+        "attendanceDate": "2026-04-10",
+        "attendanceLocation": "河内国家会议中心",
+        "notes": "需要准备公司简介和中越双语资料"
+      },
+      {
+        "id": "CH2",
+        "chamberName": "胡志明市华人商会 / HCMC Chinese Chamber",
+        "country": "越南 / Vietnam",
+        "phone": "+84-28-3822-5678",
+        "email": "info@hcmccc.vn",
+        "contactPerson": "Trần Văn Đức",
+        "topic": "2026年度商会会员大会",
+        "attendanceDate": "2026-04-20",
+        "attendanceLocation": "胡志明市索菲特酒店",
+        "notes": "有机会认识当地建筑行业企业家"
+      }
+    ],
+    "planTracking": [],
+    "quarterly": {
+      "Q1": {
+        "actual": {},
+        "qTarget": {},
+        "notes": {}
+      },
+      "Q2": {
+        "actual": {},
+        "qTarget": {},
+        "notes": {}
+      },
+      "Q3": {
+        "actual": {},
+        "qTarget": {},
+        "notes": {}
+      },
+      "Q4": {
+        "actual": {},
+        "qTarget": {},
+        "notes": {}
+      }
+    }
+  }
+}
